@@ -1,8 +1,11 @@
 #include "lists.h"
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
  * check_cycle - checks if sigly linked list is a cycle
  * @list: points to a sigly linked list
+ *
  * Return: 1 if cycle. otherwise 0
  */
 

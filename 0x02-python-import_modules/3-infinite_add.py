@@ -7,5 +7,9 @@ if __name__ == "__main__":
     else:
         count = 0
         for i in range(1, argv_len+1):
-            count += int(argv[i])
-            print(count)
+            try:
+                count += int(argv[i])
+            except ValueError:
+                print(f"Argument {i} is not an integer: {argv[i]}")
+                continue
+            print(count):wq1
